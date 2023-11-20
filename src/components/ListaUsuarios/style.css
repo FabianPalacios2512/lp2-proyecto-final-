@@ -1,0 +1,11 @@
+.lista-usuarios {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Puedes agregar más estilos según tus necesidades */
+
+
+

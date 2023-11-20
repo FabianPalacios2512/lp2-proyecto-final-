@@ -1,0 +1,36 @@
+.contenedor-usuario {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    border: 4px solid rgb(29, 204, 123);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-usuario img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 4px solid rgb(29, 204, 123);
+    object-fit: cover;
+}
+
+.contenedor-usuario button {
+    width: 8rem;
+    height: 2.5rem;
+    background-color: rgb(29, 204, 123);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contenedor-usuario button:hover {
+    background-color: #1a8c5a;
+}
